@@ -96,15 +96,14 @@ npm start
 
 ```
 ams-sm24e/
-├── client/             # Frontend React application
-│   ├── public/         # Static files
-│   └── src/            # React source code
-│       ├── components/ # Reusable components
-│       ├── context/    # React context providers
-│       ├── layouts/    # Page layouts
-│       ├── pages/      # Application pages
-│       ├── types/      # TypeScript type definitions
-│       └── utils/      # Utility functions
+# Static files
+└── src/            # React source code
+│  ├── components/ # Reusable components
+│  ├── context/    # React context providers
+│  ├── layouts/    # Page layouts
+│  ├── pages/      # Application pages
+│  ├── types/      # TypeScript type definitions
+│  └── utils/      # Utility functions
 ├── server/             # Backend Express application
 │   ├── src/
 │       ├── config/     # Configuration files
